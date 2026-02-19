@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>miniEcommerce</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Lao:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>ຮ້ານໂມນາ</h1>
+        <div class="cart-icon">
+            🛒ສິນຄ້າ(<span id="cartCount">0</span>)ຢ່າງ
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="products" id="productList"></section>
+
+            <aside class="cart">
+                <h2>🧺 ສິນຄ້າ</h2>
+                <ul id="cartItem"></ul>
+                <p class="total">ທັ້ງໝົດ : <span id="total">0</span></p>
+                <button id="clearBtn">ລົບສິນຄ້າອອກ</button>
+            </aside>
+    </main>
+
+    <script src="main.js"></script>
+</body>
+</html>
